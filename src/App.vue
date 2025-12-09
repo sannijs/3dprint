@@ -1,8 +1,10 @@
 <template>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
   <div class="app">
     <Navbar />
     <Hero />
-    <Services />
     <Upload3D />
     <Pricing />
     <Contact />
@@ -13,7 +15,6 @@
 <script setup>
 import Navbar from './components/Navbar.vue'
 import Hero from './components/Hero.vue'
-import Services from './components/Services.vue'
 import Upload3D from './components/Upload3D.vue'
 import Pricing from './components/Pricing.vue'
 import Contact from './components/Contact.vue'
@@ -22,8 +23,10 @@ import FooterSection from './components/FooterSection.vue'
 
 <style>
 body {
-  margin: 0;
+  margin-left: 5%;
+  margin-left: 5%;
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  background: #000000;
+  font-family: orbitron, Avenir, Helvetica, Arial, sans-serif;
 }
 </style>
